@@ -1,0 +1,23 @@
+{
+    "clusterName": "OneDiskOneReplica",
+    "version": 99,
+    "datacenters": [
+        {
+            "dataNodes": [
+                {
+                    "disks": [
+                        {
+                            "capacityInBytes": 10737418240,
+                            "hardwareState": "AVAILABLE",
+                            "mountPath": "/opt/ambry/data"
+                        }
+                    ],
+                    "hardwareState": "AVAILABLE",
+                    "hostname": "server.ambry",
+                    "port": 6667
+                }
+            ],
+            "name": "Datacenter"
+        }
+    ]
+}
